@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kannay's Designners</title>
+    <Style>
+        {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+
+        h1{
+        background-color: hsl(120,50%,50%);
+            color: rgb(255,255,255);
+            padding: 30px;
+            text-align: center;
+            }
+         header img{
+        width:100px;
+        display:block;
+        margin:0 auto 10px;
+        }
+        nav {
+           background:hsl(120,50%,50%);
+           color:rgb(255,255,255);
+           }
+
+           nav a{
+           color:rgb(255,255,255);
+           text decoration:none;
+           margin:0 15px;
+           font-size:20px;
+           text-align:center;
+        }
+        .services{
+        display:flex;
+        justify-content:center;
+        gap:20px;
+        }
+        .service-box{
+        background:hsl(120,50%,50%);
+        padding:20px;
+        border-radius:8px;
+        box-shadow:0 0 10px rgba(0,0,0,0.1);
+        }
+        .Contact-form{
+         max-width:500px;
+        margin:0 aut0;
+        }
+        .contact-form input, .contact-form textarea {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+        }
+
+        .contact-form button {
+            background: hsl(120,50%,50%);
+            color: rgb(255,255,255); //white
+            padding: 10px;
+            border: none;
+            cursor: pointer;
+            width: 100%;
+        }
+
+        .contact-form button:hover {
+            background: hsl(120,50%,50%);
+            color: hsl(0,0%,100%);
+        }
+        footer {
+            background:  hsl(120,50%,50%);
+            color: hsl(0,0%,100%);
+            text-align: center;
+            padding: 15px;
+            margin-top: 20px;
+        }
+    </Style>
+</head>
+<body>
+<header>
+    <h1> Kanya's designer Studio</h1>
+</header>
+
+<nav>
+    <a href="#Home">Home</a>
+    <a href="#About">About</a>
+    <a href="#Services">Services</a>
+    <a href="#Contact Us">Contact US</a>
+</nav>
+
+<p>A kanaya's designers is a place where a client satisfies with our designs. And the place where the people
+    will get the right place for their perfect outfits & personalities. </p>
+
+<section class="Home">
+    <p>A unique design's </p>
+</section>
+
+<Section class="section" id="about">
+    <h2>About Us</h2>
+    <p> we are of team with the creative & unique design's with trendy outfits which makes you look
+        amazing</p>
+</Section>
+
+<section class="section" id="services">
+    <h2>Our Services</h2>
+    <div class="services">
+        <div class="service-box">
+            <h3>Custom clothing Design</h3>
+        </div>
+        <div class="service-box">
+            <h3>Fashion Illustration & Concept Design</h3>
+        </div>
+        <div class="service-box">
+            <h3> Tailoring & Alteration Services</h3>
+        </div>
+        <div class="service-box">
+            <h3>Sustainable & Eco-Friendly Fashion</h3>
+        </div>
+        <div class="service-box">
+            <h3>Fashion Consultation & Styling</h3>
+        </div>
+    </div>
+</section>
+
+<section class="section" id="contact">
+    <h2>Contact Us</h2>
+    <form  class="section" id="Contact-from">
+        <b><input type="text" placeholder="Enter Your Name" required></b>
+        <b><input type="text" placeholder="Enter your Email" required></b>
+        <b></b><text area rows="10" placeholder="Enter your message" required></text></b>
+        <b></b><button type="submit">send message</button></b>
+    </form>
+</section>
+<footer>
+    <p>&copy; 2025 A fashion website for all... All Rights Reserved.</p>
+</footer>
+</body>
+</html>
